@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    n_samples = int(args.init_n_samples) * n_classes
+    n_samples = int(args.init_n_samples) * 2
     n_features = int(args.init_n_features)
     per = float(args.init_per)
 
