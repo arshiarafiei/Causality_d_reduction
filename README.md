@@ -1,6 +1,6 @@
 # Efficient Discovery of Actual Cause using ML Techniques  
 
-# Requirements
+## Requirements
 
 Before running this code, ensure you have installed the required packages listed in `requirements.txt`.
 
@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 
-# Data Generation Command
+## Data Generation Command
 
 A Python script `data_gen.py` that allows you to generate synthetic data for testing or development purposes. Below are the instructions on how to use this script.
 
@@ -27,7 +27,7 @@ python data_gen.py --init_n_samples=<number of samples> --init_n_features=<numbe
 The generated data saved in `org_data.csv`. 
 
 
-# Autoencoder
+## Autoencoder
 
 A Python script `autoencoder.py` allows you to construct an autoencoder for dimension reduction. Below are the instructions on how to use this script.
 
@@ -45,7 +45,7 @@ python autoencoder.py --init_dim=<dimension> --init_drop_out=<drop out [0,1]> --
 
 The reduced data will be saved in a file named `data.csv`.
 
-# SMT
+## SMT
 
 A Python script `smt.py` allows you to find in dimension reducted data. Below are the instructions on how to use this script.
 
