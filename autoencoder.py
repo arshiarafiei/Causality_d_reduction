@@ -87,8 +87,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     dim = int(args.init_dim)
-    lr = float(args.init_drop_out)
-    drop_out = float(args.init_per)
+    lr = float(args.init_lr)
+    drop_out = float(args.init_drop_out)
 
 
     df = pd.read_csv('data_org.csv')

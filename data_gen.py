@@ -41,17 +41,15 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
 
-    parser.add_argument("--init_n_class", help="Number of classes", default=2)
     parser.add_argument("--init_n_samples", help="Number of samples", default=5000)
     parser.add_argument("--init_n_features", help="Number of features", default=128)
     parser.add_argument("--init_per", help="Number of percentage", default=0.2)
 
     args = parser.parse_args()
 
-    n_classes = int(args.init_n_class)
     n_samples = int(args.init_n_samples) * n_classes
     n_features = int(args.init_n_features)
     per = float(args.init_per)
 
-    data_gen(n_classes, n_samples, n_features, per)
+    data_gen(2, n_samples, n_features, per)
     
